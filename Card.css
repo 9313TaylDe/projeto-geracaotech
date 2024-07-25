@@ -1,0 +1,66 @@
+
+.card {
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #fff;
+    padding: 5%;
+    border-radius: 2%;
+    box-shadow: 0 2% 5% rgba(0, 0, 0, 0.1);
+    margin-top: 5%;
+  }
+  
+  .card .container {
+    max-width: 50%;
+  
+  }
+  
+  .card h1 {
+    color: #e6007e;
+    font-size: 1.5rem;
+    position: relative;
+    left: 40%  ;
+  }
+  
+  .card h2 {
+    font-size: 2.5rem;
+    margin: 10px 0;
+    position: relative;
+    left: 40% ;
+  }
+  
+  .card p {
+    margin: 20px 0;
+    line-height: 1.5;
+    position: relative;
+    left: 40% ;
+  }
+  
+  .card .btn {
+    
+    background-color: #e6007e;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    position: relative;
+    left: 40% ;
+  }
+  .tenis{
+    position: absolute;
+    left: 4%;
+    width: 30%;
+    top: 25%;
+  
+  }
+  .circulo{
+    background: radial-gradient(circle, rgba(255, 255, 255, 0) 2%, rgba(255, 255, 255, 0) 0%, rgba(66, 0, 255, 0.25) 100%);
+    border-radius: 50%;
+    height: 28vw;
+    width: 28vw;
+    position: absolute;
+    left: 7%;
+    top: 15%;
+    
+  }
+  
